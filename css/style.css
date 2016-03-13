@@ -1,0 +1,44 @@
+.page {
+	width: 1000px;
+	height: 1315px;
+	margin: auto;
+}
+
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.phone {
+	float: left;
+	display: block;
+	width: 289px;
+}
+
+.avtor {
+	float: left;
+	width: 495px;
+	height: 25px;
+	background: url(../img/back_avtor.png);
+
+}
+
+.avtor_text {
+	width: 460px;
+	margin-left: 28px;
+}
+
+input.text {
+	display: inline-block;
+	width: 114px;
+	height: 12px;
+
+	margin-top: 5px;
+
+
+}
+
+.nav {
+	float: right;
+}
