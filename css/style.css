@@ -1,6 +1,5 @@
 .page {
-	width: 1000px;
-	height: 1315px;
+	width: 908px;
 	margin: auto;
 }
 
@@ -8,6 +7,16 @@
 	content: '';
 	clear: both;
 	display: block;
+}
+
+a, h1, input, p {
+	font-family: Arial, sans-serif;
+}
+
+.top {
+	height: 26px;
+	width: 100%;
+	padding: 10px 0;
 }
 
 .phone {
@@ -35,10 +44,28 @@ input.text {
 	height: 12px;
 
 	margin-top: 5px;
+}
 
+input.button {
+	padding: 0;
+	background: none;
+	border: none;
+	color: #ffffff;
+	text-decoration: none;
+}
 
+.avtor_text>a {
+	font-size: 12px;
+	color: #bfbfbf;
 }
 
 .nav {
 	float: right;
+	padding: 6px;
+	border: 1px solid gray;
+	border-radius: 22px;
+}
+
+.nav>a {
+	padding: 3px 7px;
 }
