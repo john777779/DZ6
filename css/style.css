@@ -113,3 +113,47 @@ input.button {
 	color: #0d5a8f;
 	font-size: 13px;
 }
+
+/*---Left Menu---*/
+
+.left_box {
+	float: left;
+	width: 192px;
+}
+
+div.zag {
+	border: 1px solid #8c969a;
+	border-radius: 20px;
+}
+
+.zag>img {
+	float: left;
+	padding: 2px;
+}
+
+h1 {
+	display: inline-block;
+	padding: 7px 0px 5px 10px;
+	color: #114165;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+div.zag2 {
+	margin: 10px 0 5px 2px;
+	border: 1px solid #8c969a;
+	border-radius: 20px;
+}
+
+.zag2>img {
+	float: left;
+	padding: 2px;
+}
+
+h2 {
+	display: inline-block;
+	padding: 9px 0px 5px 10px;
+	color: #114165;
+	font-size: 13px;
+	text-transform: uppercase;
+}
