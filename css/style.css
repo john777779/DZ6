@@ -1,3 +1,7 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
 .page {
 	width: 908px;
 	margin: auto;
@@ -68,4 +72,44 @@ input.button {
 
 .nav>a {
 	padding: 3px 7px;
+}
+
+.menu_top {
+	width: 910px;
+	height: 33px;
+	background: url(../img/back_menu.png);
+}
+
+.menu_t {
+	display: inline-block;
+	padding: 7px 15px;
+	text-transform: uppercase;
+	color: #ffffff;
+
+}
+
+.menu_t:hover {
+	background: linear-gradient(to top, #0c3357, #1f6787);
+	border-radius: 15px;
+}
+
+.menu {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.menu_t_r {
+	display: block;
+	float: right;
+	padding: 5px 10px;
+}
+
+.text_m {
+	color: #929b9f;
+	font-size: 12px;
+}
+
+.text_1_m {
+	color: #0d5a8f;
+	font-size: 13px;
 }
