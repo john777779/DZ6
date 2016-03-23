@@ -206,3 +206,41 @@ button {
 	border-radius: 20px;
 	color: #e5e9ea;
 }
+
+/*---Content---*/
+
+.content {
+	background: linear-gradient(to top, #93a7b0, #e4e7e8);
+	width: 525px;
+	height: 640px;
+	margin: auto;
+	border-radius: 5px;
+}
+
+figure.box {
+	float: left;
+	margin: 17px;
+	width: 140px;
+	height: 180px;
+	text-align: center;
+}
+
+.box>h3 {
+	color: #206988;
+	font-size: 18px;
+}
+
+.pic {
+	background: #fff;
+	border-width: 137px;
+	border: 1px solid #a7b1b4;
+	border-radius: 10px;
+}
+
+.price {
+	margin: 5px;
+	color: #114165;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+}
