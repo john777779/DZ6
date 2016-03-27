@@ -20,18 +20,27 @@ a, h1, input, p {
 .top {
 	height: 26px;
 	width: 100%;
-	padding: 10px 0;
+	padding: 30px 0 9px;
+}
+
+.top>img {
+	float: left;
+	display: inline-block;
+	padding:3px 3px 0 7px;
 }
 
 .phone {
+	padding-top: 4px;
 	float: left;
 	display: block;
 	width: 289px;
+	font-size: 19px;
 }
 
 .avtor {
+	margin: -2px 0px -18px -10px;
 	float: left;
-	width: 495px;
+	width: 500px;
 	height: 25px;
 	background: url(../img/back_avtor.png);
 
@@ -44,37 +53,64 @@ a, h1, input, p {
 
 input.text {
 	display: inline-block;
-	width: 114px;
+	width: 111px;
 	height: 12px;
+	font-size: 12px;
 
-	margin-top: 5px;
+	margin-top: 4px;
 }
 
-input.button {
+input.button1 {
+	padding-left: 5px;
+	background: none;
+	border: none;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+.avtor_text>span {
+	color: #d2d8dd;
+	font-size: 11px;
+}
+
+input.button2 {
 	padding: 0;
 	background: none;
 	border: none;
 	color: #ffffff;
 	text-decoration: none;
+	font-size: 11px;
 }
 
 .avtor_text>a {
+	margin-left: 18px;
 	font-size: 12px;
 	color: #bfbfbf;
-}
+	}
 
 .nav {
+	margin-right: 5px;
+	padding-bottom: 3px;
 	float: right;
-	padding: 6px;
 	border: 1px solid gray;
 	border-radius: 22px;
 }
 
-.nav>a {
-	padding: 3px 7px;
+.home {
+	padding: 0 4px 0 8px;
+}
+
+.map {
+	padding-right: 5px;
+}
+
+.contact {
+padding-right: 11px;
 }
 
 .menu_top {
+	margin: 3px 0 12px 0;
 	width: 910px;
 	height: 33px;
 	background: url(../img/back_menu.png);
@@ -82,9 +118,11 @@ input.button {
 
 .menu_t {
 	display: inline-block;
-	padding: 7px 15px;
+	margin-top: 6px;
+	padding: 5px 16px;
 	text-transform: uppercase;
 	color: #ffffff;
+	font-size: 13px;
 
 }
 
@@ -95,23 +133,60 @@ input.button {
 
 .menu {
 	display: inline-block;
-	margin-left: 50px;
+	margin-left: 131px;
 }
 
 .menu_t_r {
 	display: block;
 	float: right;
-	padding: 5px 10px;
+	padding: 7px 0;
 }
 
 .text_m {
+	padding-right: 7px;
 	color: #929b9f;
-	font-size: 12px;
+	font-size: 11px;
+}
+
+.text_m1 {
+	color: #929b9f;
+	font-size: 11px;
 }
 
 .text_1_m {
+	padding-right: 12px;
 	color: #0d5a8f;
 	font-size: 13px;
+}
+
+.text_1_m1 {
+	padding-right: 11px;
+	color: #0d5a8f;
+	font-size: 12px;
+}
+
+.menu_t_r span img {
+	display: block;
+	float: left;
+	padding: 1px 7px 0 0;
+}
+
+.find {
+	position: relative;
+}
+
+.find_1 {
+	padding-left: 1px;
+}
+
+.find_2 {
+	position: absolute;
+	left: 430px;
+}
+
+.find_3{
+	position: absolute;
+	left: 632px;
 }
 
 /*---Left Menu---*/
@@ -158,24 +233,26 @@ h2 {
 	text-transform: uppercase;
 }
 
-li.item>a {
+.menu_r {
 	padding-left: 50px;
+}
+
+li.item {
 	line-height: 23px;
 	color: #465961;
 	font-size: 12px;
 	text-decoration: none;
+	list-style: url(../img/marker.png);
 }
 
-li.item>a:hover {
+li.item:hover {
 	font-size: 13px;
 	font-style: italic;
 	color: #0c3256;
 	text-decoration: underline;
+	list-style: url(../img/marker_activ.png);
 }
 
-.item>a>img {
-	padding: 2px 0;
-}
 
 /*---Right Menu---*/
 
@@ -243,4 +320,45 @@ figure.box {
 	font-size: 16px;
 	font-style: italic;
 	font-weight: bold;
+}
+
+/*---Footer---*/
+
+.logo {
+	display: block;
+	width: 690px;
+	margin: 20px auto;
+}
+
+.logo a {
+	padding: 4px;
+}
+
+.menu_bottom {
+	width: 908px;
+	height: 98px;
+	margin: 10px auto 0;
+	background: #213a4d;
+	text-align: center;
+}
+
+.menu_bottom a {
+	color: #bec6c9;
+	padding: 0 10px;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 40px;
+}
+
+.menu_bottom a:hover {
+	color: #52abcb;
+}
+
+.border {
+	color: #8d989f;
+}
+
+.menu_bottom p {
+	color: #7f4740;
+	font-size: 10px;
 }
