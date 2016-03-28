@@ -197,62 +197,148 @@ padding-right: 11px;
 }
 
 div.zag {
+	margin: 7px 0 0 -1px;
 	border: 1px solid #8c969a;
 	border-radius: 20px;
 }
 
 .zag>img {
 	float: left;
-	padding: 2px;
+	padding: 1px 2px 2px 2px;
 }
 
 .zag>h1 {
 	display: inline-block;
-	padding: 7px 0px 5px 5px;
+	padding: 7px 0px 5px 1px;
 	color: #114165;
 	font-size: 13px;
 	text-transform: uppercase;
 }
 
 div.zag2 {
-	margin: 10px 0 5px 2px;
+	width: 148px;
+	margin: 13px 0 1px 1px;
 	border: 1px solid #8c969a;
 	border-radius: 20px;
 }
 
 .zag2>img {
 	float: left;
-	padding: 2px;
+	padding: 1px 0 2px 4px;
 }
 
 h2 {
 	display: inline-block;
-	padding: 9px 0px 5px 10px;
+	padding: 7px 0px 5px 2px;
 	color: #114165;
-	font-size: 13px;
+	font-size: 14px;
 	text-transform: uppercase;
 }
 
 .menu_r {
-	padding-left: 50px;
+	padding-left: 51px;
 }
 
-li.item {
+li.item1 {
 	line-height: 23px;
 	color: #465961;
-	font-size: 12px;
+	font-size: 13px;
 	text-decoration: none;
 	list-style: url(../img/marker.png);
 }
 
-li.item:hover {
+li.item2 {
+	line-height: 30px;
+	color: #465961;
+	font-size: 13px;
+	text-decoration: none;
+	list-style: url(../img/marker.png);
+}
+
+li.item3 {
+	line-height: 20px;
+	color: #465961;
+	font-size: 13px;
+	text-decoration: none;
+	list-style: url(../img/marker.png);
+}
+
+li.item4 {
+	line-height: 31px;
+	color: #465961;
+	font-size: 13px;
+	text-decoration: none;
+	list-style: url(../img/marker.png);
+}
+
+li.item1:hover {
 	font-size: 13px;
 	font-style: italic;
+	font-weight: bold;
 	color: #0c3256;
 	text-decoration: underline;
 	list-style: url(../img/marker_activ.png);
 }
 
+li.item2:hover {
+	font-size: 13px;
+	font-style: italic;
+	font-weight: bold;
+	color: #0c3256;
+	text-decoration: underline;
+	list-style: url(../img/marker_activ.png);
+}
+
+li.item3:hover {
+	font-size: 13px;
+	font-style: italic;
+	font-weight: bold;
+	color: #0c3256;
+	text-decoration: underline;
+	list-style: url(../img/marker_activ.png);
+}
+
+li.item4:hover {
+	font-size: 13px;
+	font-style: italic;
+	font-weight: bold;
+	color: #0c3256;
+	text-decoration: underline;
+	list-style: url(../img/marker_activ.png);
+}
+
+div.zag21 {
+	width: 150px;
+	margin: -5px 0 -1px 0;
+	border: 1px solid #8c969a;
+	border-radius: 20px;
+}
+
+.zag21>img {
+	float: left;
+	padding: 1px 0 2px 4px;
+}
+
+.zag21>h2 {
+	display: inline-block;
+	padding: 7px 0px 5px 4px;
+	color: #114165;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+
+div.zag22 {
+	width: 148px;
+	margin: -4px 0 1px 0px;
+	border: 1px solid #8c969a;
+	border-radius: 20px;
+}
+
+.zag22>img {
+	float: left;
+	padding: 1px 0 2px 4px;
+}
 
 /*---Right Menu---*/
 
