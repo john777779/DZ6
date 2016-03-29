@@ -13,7 +13,7 @@ body {
 	display: block;
 }
 
-a, h1, input, p {
+a, h1, input, p, span {
 	font-family: Arial, sans-serif;
 }
 
@@ -347,27 +347,139 @@ div.zag22 {
 	width: 185px;
 }
 
-.right_box div.zag2 {
-	margin: 10px 20px 10px 15px;
+div.zag_r {
+	margin: 5px 0 0 4px;
+	border: 1px solid #8c969a;
+	border-radius: 20px;
 }
 
-li.check_brend {
+.zag_r>img {
+	float: left;
+	padding: 1px 2px 2px 2px;
+}
+
+.zag_r>h1 {
+	display: inline-block;
+	padding: 6px 0px 5px 3px;
+	color: #114165;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+div.zag2_r {
+	width: 135px;
+	margin: 15px 0 1px 18px;
+	border: 1px solid #8c969a;
+	border-radius: 20px;
+}
+
+.zag2_r>img {
+	float: left;
+	padding: 1px 0 2px 4px;
+}
+
+.zag2_r>h2 {
+	display: inline-block;
+	padding: 6px 0px 6px 3px;
+	color: #114165;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+li.check_brend1 {
 display: block;
-	padding-left: 20px;
+	padding: 2px 0 0 24px;
 }
 
-li.check_brend>span {
-	padding-left: 10px;
+li.check_brend1>span {
+	padding-left: 8px;
+	font-size: 13px;
+	color: #465961;
+}
+
+li.check_brend2 {
+display: block;
+	padding: 6px 0 0 24px;
+}
+
+li.check_brend2>span {
+	padding-left: 8px;
+	font-size: 13px;
+	color: #465961;
+}
+
+li.check_brend3 {
+display: block;
+	padding: 6px 0 0 24px;
+}
+
+li.check_brend3>span {
+	padding-left: 8px;
+	font-size: 13px;
+	color: #465961;
+}
+
+div.zag21_r {
+	width: 137px;
+	margin: 14px 0 1px 16px;
+	border: 1px solid #8c969a;
+	border-radius: 20px;
+}
+
+.zag21_r>img {
+	float: left;
+	padding: 1px 0 2px 4px;
+}
+
+.zag21_r>h2 {
+	display: inline-block;
+	padding: 6px 0px 6px 6px;
+	color: #114165;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+
+li.check_brend21 {
+display: block;
+	padding: 4px 0 0 24px;
+}
+
+li.check_brend21>span {
+	padding-left: 8px;
+	font-size: 13px;
+	color: #465961;
+}
+
+li.check_brend22 {
+display: block;
+	padding: 6px 0 0 24px;
+}
+
+li.check_brend22>span {
+	padding-left: 8px;
+	font-size: 13px;
+	color: #465961;
+}
+
+li.check_brend23 {
+display: block;
+	padding: 6px 0 0 24px;
+}
+
+li.check_brend23>span {
+	padding-left: 8px;
 	font-size: 13px;
 	color: #465961;
 }
 
 button {
-	margin: 10px 25px;
-	padding: 5px 10px;
+	margin: 18px 25px;
+	padding: 5px 12px;
 	background: linear-gradient(to top, #0d3458, #1f6585);
 	border-radius: 20px;
 	color: #e5e9ea;
+	font-size: 12px;
 }
 
 /*---Content---*/
@@ -375,37 +487,144 @@ button {
 .content {
 	background: linear-gradient(to top, #93a7b0, #e4e7e8);
 	width: 525px;
-	height: 640px;
+	height: 631px;
 	margin: auto;
 	border-radius: 5px;
 }
 
-figure.box {
+.first_line {
+	width: 525px;
+	height: 203px;
+}
+
+figure.box1 {
 	float: left;
-	margin: 17px;
-	width: 140px;
-	height: 180px;
+	margin: 13px 0 0 23px;
+	width: 138px;
+	height: 179px;
 	text-align: center;
 }
 
-.box>h3 {
+.box1>h3 {
 	color: #206988;
-	font-size: 18px;
+	font-size: 16px;
+	margin: 5px 0 0 -3px;
 }
 
-.pic {
+.box1>figcaption.title_tire {
+	margin-left: 4px;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.pic1 {
+	margin-top: 1px;
+	height: 127px;
+	background: #fff;
+	border: 1px solid #a7b1b4;
+	border-radius: 10px;
+}
+
+.pic1>img {
+	margin: 5px 5px 0 0;
+}
+
+.price1 {
+	margin: 5px 0 0 15px;
+	color: #114165;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+figure.box2 {
+	float: left;
+	margin: 13px 0 0 29px;
+	width: 139px;
+	height: 179px;
+	text-align: center;
+}
+
+.box2>h3 {
+	color: #206988;
+	font-size: 16px;
+	margin: 5px 0 0 3px;
+}
+
+.box2>figcaption.title_tire {
+	margin-left: 5px;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.pic2 {
+	margin-top: 1px;
+	height: 127px;
+	background: #fff;
+	border: 1px solid #a7b1b4;
+	border-radius: 10px;
+}
+
+.pic2>img {
+	margin: 5px 2px 0 0;
+}
+
+.price2 {
+	margin: 5px 0 0 15px;
+	color: #114165;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+figure.box3 {
+	float: left;
+	margin: 13px 0 0 29px;
+	width: 139px;
+	height: 179px;
+	text-align: center;
+}
+
+.box3>h3 {
+	color: #206988;
+	font-size: 16px;
+	margin: 5px 0 0 3px;
+}
+
+.box3>figcaption.title_tire {
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.pic3 {
+	margin-top: 1px;
+	height: 127px;
 	background: #fff;
 	border-width: 137px;
 	border: 1px solid #a7b1b4;
 	border-radius: 10px;
 }
 
-.price {
-	margin: 5px;
+.pic3>img {
+	margin: 5px 5px 0 0;
+}
+
+.price3 {
+	margin: 5px 0 0 16px;
 	color: #114165;
 	font-size: 16px;
 	font-style: italic;
 	font-weight: bold;
+}
+
+.second_line {
+	width: 525px;
+	height: 203px;
+}
+
+.third_line {
+	width: 525px;
+	height: 203px;
 }
 
 /*---Footer---*/
